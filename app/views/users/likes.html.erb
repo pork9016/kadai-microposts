@@ -1,0 +1,8 @@
+<h1>お気に入り一覧</h1>
+
+
+<ul>
+  <% @likes.each do |micropost| %>
+    <li><%= micropost.content %></li>
+  <% end %>
+</ul>
